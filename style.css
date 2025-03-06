@@ -1,0 +1,116 @@
+body {
+    font-family: sans-serif;
+    background-color: White;
+}
+
+header {
+    background-color: red;
+    font-size: 20px;
+    color: White;
+    text-decoration: none;
+    width: 1000px;
+}
+
+.news, .ohgosh, .about {
+    margin: 30px 30px 30px 30px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: White;
+    margin: 30px 30px 30px 30px;
+}
+
+.products, .products2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product, .product2 {
+    margin: 10px;
+}
+
+.product-img {
+    width: 300px;
+    height: 500px;
+}
+
+.addtocart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu {
+    border-radius: 10px;
+}
+
+.menu:hover {
+    background-color: white;
+    color: red;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buynow {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.buynow:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.add {
+    border-radius: 50px;
+    color: black;
+    padding: 5px;
+}
+
+.add:hover {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+footer {
+    background-color: black;
+}
+
+.helpnumber {
+    color: White;
+}
+
+.images10 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.titleofstore:hover {
+    color: red;
+    transition: 1s linear;
+}
+
+header-img {
+    float: center;
+}
+
+.product-img:hover {
+    width: 400px;
+    height: 600px;
+    transition: 0.5s linear;
+}
